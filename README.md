@@ -1,16 +1,28 @@
-# paymentmessage
+# Payment Confirmation Status Application
 
-A new Flutter project.
+This is a Flutter application for checking the payment confirmation status of bills. The application fetches data from a backend API and allows users to view payment details based on their role (Seller or Department).
+
+## Features
+
+- Enter bill number and bill date to check payment status.
+- Displays payment details in a dialog.
+- Updates the view status based on the role (Seller or Department).
+- Checks for internet connectivity before making API requests.
+- Uses a gradient background and a card layout for the input form.
+
+## Prerequisites
+
+- Flutter SDK
+- .NET Framework for the backend API
+- SQL Server for the database
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Flutter Application
 
-A few resources to get you started if this is your first Flutter project:
+1. **Clone the repository:**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+   ```bash
+   git clone https://github.com/sureshbrahma/paymentmessage.git
+   cd payment-confirmation-status
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
