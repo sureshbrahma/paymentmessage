@@ -1,0 +1,2 @@
+-keep class com.yourpackage.network.** { *; }
+-keepclassmembers class com.yourpackage.network.** { *; }
